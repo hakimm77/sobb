@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/stripe": "^8.0.417",
+    "stripe": "^8.207.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
